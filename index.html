@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <header>
+
+        <h3 class="heading">TO DO<sub class="slogan">REMINDS EVERYTHING</sub></h3>
+
+    </header>
+
+
+    <div class="entry">
+
+        <input type="text" class="entry_box" id="to_do" placeholder="Enter Task">
+        <button class="entry_box a" onclick="addItem();">ADD ITEM</button>
+
+    </div>
+
+
+    <div class="items">
+
+        <ul class="tasks_noted" id="list"></ul>
+        <button class="del-all" onclick="del_all();">DELETE ALL</button>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
